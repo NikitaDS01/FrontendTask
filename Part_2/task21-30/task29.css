@@ -1,0 +1,9 @@
+body{
+    margin: 60px auto;
+     width: 200px;
+}
+ul{
+    list-style-type: "►" ;
+    margin-left: -25px;
+    margin-top: 0;
+}

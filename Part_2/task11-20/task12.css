@@ -1,0 +1,16 @@
+body {
+    width: 590px; 
+    font-size: larger;
+}
+h6{
+    color: grey;
+    margin: -25px auto;
+}
+.redColor{
+    color: red;
+}
+pre{
+    color: white;
+    background-color: black;
+    padding: 15px;
+}

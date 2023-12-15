@@ -1,0 +1,25 @@
+body {
+    background-color:darkcyan;
+}
+p{
+    text-align: justify; text-indent: 20px; font-size: large;
+    color: darkorange;	background-color:whitesmoke; 
+    border-top: 6px double green; border-bottom: 6px double green;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
+}
+p.boxOne{
+    margin: 5% auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+p.boxTwo{
+    margin: 5% auto;
+    overflow: hidden;
+}
+p.boxThree{
+    margin: 5% auto;
+    overflow: scroll;
+    overflow-y: scroll;
+}

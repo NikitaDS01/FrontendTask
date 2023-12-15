@@ -1,0 +1,14 @@
+div{
+    background-color: dimgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 4px solid red;
+    height: 20px;
+    padding: 10px;
+    word-spacing: 20px;
+}
+a{
+    color: gainsboro;
+    position: relative;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+body{
+    margin: 20px auto;
+     width: 280px;
+}
+h2{
+    height: 60px;
+    padding-top: 30px;
+    text-align: center;
+    
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 10px 10px red;
+}

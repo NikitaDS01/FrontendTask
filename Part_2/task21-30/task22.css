@@ -1,0 +1,11 @@
+body{
+    background-color:darkcyan;
+    margin: 60px auto;
+     width: 250px;
+}
+div{
+    height: 110px;
+    background-color: black;
+    border-radius: 180px;
+    border: 70px solid goldenrod;
+}

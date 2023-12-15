@@ -1,0 +1,12 @@
+body {
+    width: 200px; margin: 50% auto;
+    background-image: url("Resource/task1.png");
+}
+p.head{
+    font-size: large;
+    color: blue;
+}
+p.head::first-letter{
+    font-size: larger;
+    color: red;
+}

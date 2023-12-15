@@ -1,0 +1,39 @@
+<!-- 10.11.2023 Дорошенко Никита Сергеевич -->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Задача 11</title>
+		<link rel="stylesheet" href="task11.css">
+	</head>
+	<body>
+		<h1>Creating a chart</h1> 
+		<p>
+			To create a chart, we need to instantiate the Chart class. 
+			To do this, we need to pass in the 2d context of where we want to draw the chart. 
+			Here's an example.
+		</p>
+		<pre>
+<code class="object">&lt;canvas</code> <code class="attribute">id=</code><code 
+class="value">"myChart"</code> <code class="attribute">width=</code><code class="value">"400"</code> <code
+class="attribute">height=</code><code class="value">"400"</code><code class="object">&gt;&lt;/canvas&gt;</code></pre>
+		<pre><code class="comment">// Get the context of the canvas element we want to select</code>
+<code class="operator">var</code> ctx = <code style="color: cadetblue;">document</code>.getElementById(<code 
+class="value">"myChart"</code>).getContext(<code class="value">"2d"</code>);
+<code class="operator">var</code> myNewChart = <code class="operator">new</code> Chart(ctx).PolarArea(data);
+		</pre>
+		<p>
+			We can also get the context of our canvas with jQuery. 
+			To do this, we need to get the DOM node out of the jQuery collection, and call the 
+			<code>getContext("2d")</code> method on that.
+		</p>
+		<pre>
+<code class="comment">// Get context with jQuery - using jQuery's .get() method.</code>
+<code class="operator">var</code> ctx = $(<code class="value">"#myChart"</code>).get(<code style="color: cadetblue;">0</code>).getContext(<code class="value">"2d"</code>);
+<code class="comment">// This will get the first returned node in the jQuery collection</code>
+<code class="operator">var</code> myNeChart = <code class="operator">new</code> Chart(ctx);
+		</pre>
+		<p>
+			After we're instantiated the Chart class on the canvas we want to draw on, Chart.js will handle the scaling for retina displays.
+		</p>
+	</body>
+</html>

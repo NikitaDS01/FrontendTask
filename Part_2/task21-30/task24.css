@@ -1,0 +1,33 @@
+body{
+    background-image: url(Resource/task1.png);
+    margin: 60px auto;
+     width: 600px;
+}
+div{
+    position: absolute;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+div.blue{
+    background-color: blue;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+div.green{
+    background-color: green;
+    border-radius: 15px;
+    width: 130px;
+    height: 130px;
+    margin-top: 12px;
+    margin-left: 237px;
+}
+div.red{
+    background-color: red;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 408px;
+}

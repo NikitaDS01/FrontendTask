@@ -1,0 +1,32 @@
+body {
+    width: 590px; 
+    font-size: larger;
+}
+pre{
+    background-color: lightgray;
+    border: 1px solid grey;
+    padding: 5px;
+    overflow-x: auto;
+}
+p{
+    color: grey;
+}
+code{
+    color:black;
+}
+code.object{
+    color: blue;
+}
+code.attribute{
+    color: darkcyan;
+}
+code.value{
+    color:red;
+}
+code.comment{
+    color:darkgreen;
+}
+code.operator{
+    color: black;
+    font-weight: bold;
+}

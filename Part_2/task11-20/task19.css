@@ -1,0 +1,13 @@
+table{
+    border-spacing: 0;
+    margin: 20px auto;
+     width: 500px;
+     text-align: center;
+}
+th{
+    border: 8px solid grey;
+    background-color: black;
+    color: white;
+    width: 150;
+    height: 150;
+}

@@ -1,0 +1,28 @@
+body{
+    position: relative;
+    margin: 60px auto;
+     width: 600px;
+    background-color: aqua;
+}
+div{
+    background-color: white;
+    border: 2px solid darkcyan;
+    height: 50%;
+    float: left;
+    margin: 1%;
+}
+div.cude_1{
+    width: 5%;
+}
+div.cude_2{
+    width: 10%;
+}
+div.cude_3{
+    width: 15%;
+}
+div.cude_4{
+    width: 20%;
+}
+div.cude_5{
+    width: 30%;
+}

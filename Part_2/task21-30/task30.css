@@ -1,0 +1,15 @@
+body{
+    margin: 60px auto;
+     width: 235px;
+}
+div{
+    background-color:azure;
+    padding: 10px;
+}
+p{
+    font-size: x-large;
+}
+cite{
+    color:darkcyan;
+    font-size: larger;
+}

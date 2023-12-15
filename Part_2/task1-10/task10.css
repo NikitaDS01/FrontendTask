@@ -1,0 +1,12 @@
+body {
+    width: 550px; margin: 30px 30px;
+}
+pre{
+    background-color: lightgray;
+    border: 1px solid grey;
+    overflow-x: auto;
+}
+code{
+    background-color: lightgray;
+    border: 1px solid grey;
+}

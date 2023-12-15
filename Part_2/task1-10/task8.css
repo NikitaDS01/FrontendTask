@@ -1,0 +1,10 @@
+body {
+    width: 380px; margin: 30px 30px;
+    background-color: wheat;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    border-left: 3px dotted blue;
+    padding: 15px;
+}

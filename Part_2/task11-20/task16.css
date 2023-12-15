@@ -1,0 +1,18 @@
+body{
+    background-image: url("Resource/task2.png");
+}
+p{
+    text-align: justify;
+    padding-left: 150px;
+    text-indent: 50px;
+}
+a{
+    position: fixed;
+    top: 50%;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+
+    border: 1px solid grey;
+    padding: 4px;
+}

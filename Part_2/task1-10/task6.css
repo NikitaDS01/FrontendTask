@@ -1,0 +1,8 @@
+body {
+    width: 380px; margin: 50% auto;
+    background-image: url("Resource/task1.png");
+}
+a.site{
+    font-size: small;
+    margin: auto 70px;
+}

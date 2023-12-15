@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    border: 1px solid grey;
+}
+a{
+    display:block;
+    color: blue;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}

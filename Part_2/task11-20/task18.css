@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png");
+}
+table{
+    background-image: url("Resource/task1.png");
+    margin: 20px auto;
+     width: 500px;
+     text-align: center;
+}
+pre{
+    text-align: center;
+}
+pre.left{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png");
+}
+pre.right{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png");
+}
